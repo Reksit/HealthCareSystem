@@ -157,7 +157,7 @@ export default function Login() {
       setIsLoading(false);
     }
   };
-
+  //Email Verification
   if (needsEmailVerification) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white flex items-center justify-center p-4">
